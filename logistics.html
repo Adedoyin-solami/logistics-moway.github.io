@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Logistics - Moway Ride Ordering & Logistics App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- fontawesome css link -->
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <!-- bootstrap css link -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/images/fav.png" type="image/x-icon">
+    <!-- swipper css link -->
+    <link rel="stylesheet" href="assets/css/swiper.min.css">
+    <!-- lightcase css links -->
+    <link rel="stylesheet" href="assets/css/lightcase.css">
+    <!-- odometer css link -->
+    <link rel="stylesheet" href="assets/css/odometer.css">
+    <!-- line-awesome-icon css -->
+    <link rel="stylesheet" href="assets/css/icomoon.css">
+    <!-- line-awesome-icon css -->
+    <link rel="stylesheet" href="assets/css/line-awesome.min.css">
+    <!-- animate.css -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!-- aos.css -->
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <!-- nice select css -->
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <!-- main style css link -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Start Preloader
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<div class="preloader">
+    <div class="drawing" id="loading">
+        <div class="loading-dot"></div>
+    </div>
+</div>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    End Preloader
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+
+<div class="cursor"></div>
+<div class="cursor-follower"></div>
+
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Start Header
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<header class="header-section two">
+    <div class="header">
+        <div class="header-bottom-area">
+            <div class="container custom-container">
+                <div class="header-menu-content">
+                    <nav class="navbar navbar-expand-xl p-0">
+                        <a class="site-logo site-title" href="index.html"><img src="assets/images/logo-main.png" alt="site-logo"></a>
+                        <button class="navbar-toggler d-block d-xl-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="toggle-bar"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                            <ul class="navbar-nav main-menu">
+                                <li><a href="index.html">Home</a></li>
+                                <li class="menu_has_children">
+                                    <a href="#">Company <i class="las la-angle-down"></i></a>
+                                    <ul class="sub-menu">
+                                        <li><a href="about.html">About</a></li>
+                                        <li><a href="#" target="_blank">Blog</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu_has_children">
+                                    <a href="#">Products <i class="las la-angle-down"></i></a>
+                                    <ul class="sub-menu">
+                                        <li><a href="logistics.html">Logistics</a></li>
+                                        <li><a href="fleet.html">Fleet</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu_has_children">
+                                    <a href="#">Support <i class="las la-angle-down"></i></a>
+                                    <ul class="sub-menu">
+                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="faq.html">Faq</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="careers.html">Careers</a></li>
+                            </ul>
+                            <div class="header-right">
+                                <div class="header-action-area">
+                                    <div class="header-action">
+                                        <a href="#" class="btn--base">ORDER RIDE ONLINE</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    End Header
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Start Banner
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<section class="banner-section two five">
+    <div class="banner-element-thirty">
+        <img src="assets/images/element/element-6.png" alt="element">
+    </div>
+    <div class="banner-element-thirty-one">
+        <img src="assets/images/element/element-43.png" alt="element">
+    </div>
+    <div class="banner-element-thirty-two">
+        <img src="assets/images/element/element-12.png" alt="element">
+    </div>
+    <div class="banner-element-thirty-three">
+        <img src="assets/images/element/element-109.png" alt="element">
+    </div>
+    <div class="banner-element-thirty-four">
+        <img src="assets/images/element/element-110.png" alt="element">
+    </div>
+    <div class="banner-element-thirty-five">
+        <img src="assets/images/element/element-111.png" alt="element">
+    </div>
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-xl-12">
+                <div class="banner-content two three">
+                    <h1 class="title">Moway logistics pickup & Delivery service</h1>
+                    <p>Make an order, Let's Ease Your Stress
+                        </p>
+                    <div class="banner-btn">
+                        <a href="contact.html" class="btn--base active">PICKUP</i></a>
+                        <a href="contact.html" class="btn--base active">DROP-OFF</i></a>
+                    </div>
+                </div>
+                <div class="banner-thumb">
+                    <img src="assets/images/cab.png" alt="element">
+                    <!-- <div class="banner-thumb-element">
+                        <img src="assets/images/element/element-108.png" alt="element">
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    End Banner
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Start Scroll-To-Top
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<a href="#" class="scrollToTop"><i class="las la-angle-double-up"></i></a>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    End Scroll-To-Top
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Start Service
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<section class="service-section two five pt-120">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="section-header-wrapper">
+                    <div class="section-header">
+                        <span class="sub-title">Ride with MoWay</span>
+                        <h1 class="section-title two">Rides on demand</h1>
+                        <p>Enjoy Easy individuals and businesses connection with dispatch riders on our Pay less and ride more logic. 
+              You deliver more orders and save even more.satisfy more customers everyday because we provide last mile delivery</p>          
+                    </div>
+                    <div class="section-header-btn">
+                        <a href="#" class="btn--base active">REQUEST RIDE ONLINE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</section>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    End Service
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+
+<!-- <!-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Start About
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--> 
+<section class="about-section pt-120">
+    <div class="about-element-one">
+        <img src="assets/images/element/element-39.png" alt="element">
+    </div>
+    <div class="about-element-two">
+        <img src="assets/images/element/element-40.png" alt="element">
+    </div>
+    <div class="about-element-three">
+        <img src="assets/images/element/element-7.png" alt="element">
+    </div>
+    <div class="about-element-four">
+        <img src="assets/images/element/element-41.png" alt="element">
+    </div>
+    <div class="about-element-five">
+        <img src="assets/images/element/element-42.png" alt="element">
+    </div>
+    <div class="container">
+        <div class="about-area three">
+            <div class="row justify-content-center align-items-center mb-30-none">
+                <div class="col-xl-6 col-lg-6 mb-30">
+                    <div class="box-wrapper">
+                        <div class="box3"></div>
+                        <div class="box1">
+                            <div class="box-element-one">
+                                <img src="assets/images/element/element-14.png" alt="element">
+                            </div>
+                            <div class="box-element-two">
+                                <img src="assets/images/element/element-15.png" alt="element">
+                            </div>
+                            <div class="box-element-three">
+                                <img src="assets/images/element/element-13.png" alt="element">
+                            </div>
+                            <div class="box-element-four">
+                                <img src="assets/images/element/element-6.png" alt="element">
+                            </div>
+                        </div>
+                        <div class="box2">
+                            <div class="box-element-five">
+                                <img src="assets/images/element/element-16.png" alt="element">
+                            </div>
+                            <div class="box-element-six">
+                                <img src="assets/images/element/element-7.png" alt="element">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-thumb">
+                        <img src="assets/images/element/element-38.png" alt="element">
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 mb-30">
+                    <div class="about-content">
+                        <h2 class="title">Do you want to ride With us? <span class="text--base">Let's Go </span></h2>
+                        <p>Do you have a motorbike or tricycle in good working condition?you can earn money from riding.</p>
+                        <p>Can you ride a motorbike or tricycle?You are passionate and have the right attitude to work.</p>
+                        <p>You have a smartphone?
+                            You love innovation, growth and excellence.
+                            </p>
+                            <p>Then you’re a perfect fit for us, you can...</p>
+                            <a href="#" class="btn--base active">GET STARTED <i class="fas fa-paper-plane ml-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    End About
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+</section>
+<section class="payment-section ptb-120">
+    <div class="container">
+        <div class="row justify-content-center mb-30-none">
+            <div class="col-xl-6 col-lg-6 mb-30">
+                <div class="payment-content">
+                    <span class="sub-title">HOW MOWAY APP WORKS</span>
+                    <h1 class="title">Vendor
+                       </h1>
+                    <p>Our app is user-friendly, easy and seamless to navigate. Designed to bring ease to mobility services. </p>
+                    <ul class="payment-list two">
+                        <li>
+                            <div class="payment-list-item">
+                                <div class="thumb">
+                                    <img src="assets/images/icon/icon-37.png" alt="icon">
+                                </div>
+                                <div class="content">
+                                    <h3 class="title">Download and Sign up the MoWay app</h3>
+                                    <p>Set up your profile to Accept Request</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="payment-list-item">
+                                <div class="thumb">
+                                    <img src="assets/images/icon/icon-38.png" alt="icon">
+                                </div>
+                                <div class="content">
+                                    <h3 class="title">Book order</h3>
+                                    <p>Confirm Order and get directions to customers’ locations</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="payment-list-item">
+                                <div class="thumb">
+                                    <img src="assets/images/icon/icon-39.png" alt="icon">
+                                </div>
+                                <div class="content">
+                                    <h3 class="title">Confirm delivery</h3>
+                                    <p>Deliver to Customer and earn</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="payment-btn">
+                        <a href="#0" class="btn--base">ON APP STORE <i class="fab fa-apple ml-2"></i></a>
+                        <a href="#0" class="btn--base two">ON PLAY STORE <i class="fab fa-google-play ml-2"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 mb-30">
+                <div class="payment-thumb two">
+                    <img src="assets/images/element/element-88.png" alt="element">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Start Service
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<section class="service-section two four ptb-120">
+    <div class="service-element-six">
+        <img src="assets/images/element/element-87.png" alt="element">
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-8 col-lg-8 text-center">
+                <div class="section-header">
+                    <span class="sub-title">WHY CHOOSE US</span>
+                    <h1 class="section-title">Learn why Moway is best choice for you</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid p-0">
+        <div class="service-slider-two">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="service-item two four">
+                        <div class="service-icon">
+                            <img src="assets/images/icon/icon-32.png" alt="icon">
+                        </div>
+                        <div class="service-content">
+                            <h3 class="title">Affordable rates</h3>
+                            <p>Get the best quality service you desire for affordable and pocket-friendly prices</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="service-item two four">
+                        <div class="service-icon">
+                            <img src="assets/images/icon/icon-33.png" alt="icon">
+                        </div>
+                        <div class="service-content">
+                            <h3 class="title">Excellent Delivery</h3>
+                            <p>Excellent customer's satisfaction on delivery made f</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="service-item two four">
+                        <div class="service-icon">
+                            <img src="assets/images/icon/icon-34.png" alt="icon">
+                        </div>
+                        <div class="service-content">
+                            <h3 class="title">Quality Customer Care</h3>
+                            <p>Our staffs are professionals in their field to give you the best service you request</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="service-item two four">
+                        <div class="service-icon">
+                            <img src="assets/images/icon/icon-35.png" alt="icon">
+                        </div>
+                        <div class="service-content">
+                            <h3 class="title">Excellent Customer Service</h3>
+                            <p>We take regular feedback from our customers to see how happy they are with our service and how we can yet improve. Responding to complaints on time. Politeness in communication.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="service-item two four">
+                        <div class="service-icon">
+                            <img src="assets/images/icon/icon-36.png" alt="icon">
+                        </div>
+                        <div class="service-content">
+                            <h3 class="title">Quality Customer Care</h3>
+                            <p>Our staffs are professionals in their field to give you the best service you request</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</section>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    End Service
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Start Footer
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<footer class="footer-section five pt-120">
+    <div class="container">
+        <div class="row mb-30-none">
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                <div class="footer-widget">
+                    <div class="footer-logo">
+                        <a class="site-logo site-title" href="index.html"><img src="assets/images/logo-main.png" alt="site-logo"></a>
+                    </div>
+                    <p>MoWay provides fast, affordable, and convenient transportation services to individuals and businesses.</p>
+                    <ul class="footer-social two">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-6 mb-30">
+                <div class="footer-widget">
+                    <h4 class="title">Company</h4>
+                    <ul class="footer-list">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="fleet.html">Fleet</a></li>
+                        <li><a href="logistics.html">Logistics</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-6 mb-30">
+                <div class="footer-widget">
+                    <h4 class="title">Quick links</h4>
+                    <ul class="footer-list">
+                        <li><a href="#" target="_blank">Blog</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="terms-of-use.html">Terms of Use</a></li>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                <div class="footer-widget">
+                    <h5 class="title">Newsletter Subscription</h5>
+                    <form class="footer-subscribe-form three">
+                        <input type="text" class="form--control" placeholder="Enter your name...">
+                        <input type="email" class="form--control" placeholder="Enter your mail...">
+                        <button type="submit">SUBSCRIBE!</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-wrapper five">
+            <div class="row justify-content-center">
+                <div class="col-xl-12">
+                    <div class="copyright-area" style="text-align: center;">
+                        <p>Copyright © 2022 MoWay | All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    End Footer
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+
+
+
+<!-- jquery -->
+<script src="assets/js/jquery-3.6.0.min.js"></script>
+<!-- bootstrap js -->
+<script src="assets/js/bootstrap.min.js"></script>
+<!-- swipper js -->
+<script src="assets/js/swiper.min.js"></script>
+<!-- lightcase js-->
+<script src="assets/js/lightcase.js"></script>
+<!-- odometer js -->
+<script src="assets/js/odometer.min.js"></script>
+<!-- viewport js -->
+<script src="assets/js/viewport.jquery.js"></script>
+<!-- aos js file -->
+<script src="assets/js/aos.js"></script>
+<!-- nice select js -->
+<script src="assets/js/jquery.nice-select.js"></script>
+<!-- isotope js -->
+<script src="assets/js/isotope.pkgd.min.js"></script>
+<!-- tweenMax js -->
+<script src="assets/js/TweenMax.min.js"></script>
+<!-- main -->
+<script src="assets/js/main.js"></script>
+
+
+</body>
+</html>
